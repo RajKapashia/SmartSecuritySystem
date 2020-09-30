@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/set_visible"
+        android:title="Visible to the public within 2 minutes"
+        android:icon="@drawable/blutooth"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Set up"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="on"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+</menu>
